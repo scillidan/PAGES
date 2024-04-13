@@ -37,4 +37,4 @@ Open [Vivliostyle Viewer](https://vivliostyle.org/viewer/). Or refer to [vivlios
 
 Input your `gh-pages` URL, liked `https://scillidan.github.io/PAGES/`.
 
-With [options](https://docs.vivliostyle.org/#/vivliostyle-viewer#url-parameter-options), liked `https://scillidan.github.io/PAGES/&style=data:,@page{size:a5;}&zoom=1`
+With [options](https://docs.vivliostyle.org/#/vivliostyle-viewer#url-parameter-options), liked `https://vivliostyle.org/viewer/#src=https://scillidan.github.io/PAGES/&style=data:,@page{size:a5;}&zoom=1`.
