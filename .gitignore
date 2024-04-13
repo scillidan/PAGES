@@ -1,5 +1,5 @@
-git-sync
-_epub/
-_book.pdf
+publication.json
+epub/
+pages.pdf
 index.html
 source/*.html

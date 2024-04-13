@@ -1,3 +1,8 @@
+/*
+Split to body-text.css fonts.css legal-sections.css structure.css titles.css toc.css
+from  https://github.com/vivliostyle/vivliostyle_doc/blob/gh-pages/samples/gutenberg/gutenberg.css 
+*/
+
 html {
 	max-width: 90ch;
 	margin: auto;

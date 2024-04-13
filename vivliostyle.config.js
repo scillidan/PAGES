@@ -63,9 +63,9 @@ module.exports = {
     // './book.epub',
   // ],
   output: [
-    './_book.pdf',
+    './pages.pdf',
     {
-      path: './_epub',
+      path: './epub',
       format: 'webpub',
     },
   ],
