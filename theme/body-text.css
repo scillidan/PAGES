@@ -1,0 +1,41 @@
+p {
+	text-indent: 2em;
+	margin-top: 0em; margin-bottom: 0em;
+	hyphens: auto;
+	line-height: 1.45;
+	orphans: 2;
+	widows: 2;
+}
+
+/*p:first-of-type {
+	text-indent: 0;
+}
+p:first-of-type::first-letter {
+	font-weight: bold;
+	font-size: 1.8em;
+	orphans: 2;
+	line-height: 1;
+	padding-right: 1px
+}*/
+main > section:last-child::after {
+	break-before: avoid;
+	break-inside: avoid;
+	margin: 2em 0;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	font-variant: small-caps;
+	content: "\a\002722";
+	white-space: pre;
+	display: block;
+}
+
+pre {
+	font-family: "LXGW WenKai GB";
+	font-size-adjust: none;
+	font-size: 0.75em;
+	margin-left: 2em;
+	white-space: pre-wrap;
+	line-height: 1.45;
+	hyphens: none;
+}

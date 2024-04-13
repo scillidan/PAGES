@@ -1,0 +1,42 @@
+html {
+	max-width: 90ch;
+	margin: auto;
+	font-family: "LXGW WenKai GB";
+}
+body {
+	margin: 0 2em;
+}
+@media (max-width: 400) {
+	body {
+		margin: 0 1em;
+	}
+}
+@page {
+	font-size: small;
+	font-family: "LXGW WenKai GB";
+	margin: 3rem 7.5%;
+	@top-center {
+		color: gray;
+		font-variant: small-caps;
+	}
+}
+@page :right {
+	@bottom-center { content: counter(page); }
+}
+@page :left {
+	@bottom-center { content: counter(page); }
+}
+@page :first {
+	@bottom-center { content: normal; }
+	@bottom-center { content: normal; }
+	@top-center { content: normal; }
+}
+@page :blank {
+	@bottom-center { content: normal; }
+	@bottom-center { content: normal; }
+	@top-center { content: normal; }
+}
+
+p {
+	text-indent: 0;
+}

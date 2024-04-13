@@ -1,0 +1,33 @@
+nav {
+	break-before: right;
+}
+
+nav ol {
+	list-style: none;
+	counter-reset: chap;
+	padding-left: 0em;
+	line-height: 1.45;
+}
+nav li {
+	break-inside: avoid;
+}
+@media (min-width: 375px) {
+	nav li::before {
+		counter-increment: chap;
+		content: counter(chap, upper-roman) ".";
+		float: left;
+		width: 3em;
+		margin-left: -3em;
+	}
+	nav ol {
+		padding-left: 3em;
+	}
+}
+nav li a {
+	text-decoration: none;
+	color: currentColor;
+	break-inside: avoid;
+}
+nav li a::after {
+	content: leader(dotted) target-counter(attr(href url), page);
+}

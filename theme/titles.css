@@ -1,0 +1,24 @@
+h1, h2, h3, h4 {
+	margin: 2em 0;
+	hyphens: none;
+	break-after: avoid;
+}
+.author {
+	hyphens: none;
+}
+h1, h2 {
+	margin: 2em 0;
+}
+h3, h4 {
+	margin: 1em 0;
+}
+
+h2  {
+	break-before: right;
+}
+h3 {
+	break-before: page;
+}
+h2 + section h3 {
+	break-before: auto;
+}

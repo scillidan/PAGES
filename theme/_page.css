@@ -1,0 +1,16 @@
+@import 'structure.css';
+@import 'fonts.css';
+@import 'title.css';
+@import 'body-text.css';
+
+h3 {
+	text-align: right;
+	margin-right: 0.75em;
+}
+
+.date {
+	font-size: smaller;
+	text-indent: 0;
+	text-align: right;
+	margin-right: 1.25em;
+}

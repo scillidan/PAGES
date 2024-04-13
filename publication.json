@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "𝕻𝕬𝕲𝕰𝕾",
+  "author": "scillidan",
+  "inLanguage": "zh",
+  "dateModified": "2024-04-13T07:47:56.685Z",
+  "readingOrder": [
+    {
+      "url": "index.html",
+      "name": "目录",
+      "rel": "contents",
+      "type": "LinkedResource"
+    },
+    {
+      "url": "source/%E4%BD%A0%E8%BF%9B%E5%88%B0%E4%B8%80%E5%AE%B6%E5%87%8B%E8%B4%A5%E7%9A%84%E8%BF%B7%E4%BD%A0%E5%BD%B1%E9%99%A2.html",
+      "name": "你进到一家凋败的迷你影院"
+    },
+    {
+      "url": "source/%E8%BF%9C%E8%BF%91%E4%B8%80%E5%AE%B6%E5%85%BC%E5%8D%96%E6%9D%82%E8%B4%A7%E7%9A%84%E5%A5%B6%E5%93%81%E5%BA%97.html",
+      "name": "远近一家兼卖杂货的奶品店"
+    },
+    {
+      "url": "source/%E6%9C%80%E8%BF%91%E4%BB%96%E5%9C%A8%E8%B0%83%E5%88%B6%E9%BE%99%E8%88%8C%E5%85%B0%E3%80%81%E9%BE%99%E8%83%86%E5%92%8C%E9%9B%8F%E8%8F%8A%E7%9A%84%E9%85%92.html",
+      "name": "最近他在调制龙舌兰、龙胆和雏菊的酒"
+    },
+    {
+      "url": "source/%E6%8F%90%E5%89%8D%E5%88%B0%E8%BE%BE%E4%BA%86%E7%A2%B0%E5%A4%B4%E5%9C%B0%E7%82%B9.html",
+      "name": "提前到达了碰头地点"
+    },
+    {
+      "url": "source/%E5%86%B7%E6%B8%85%E9%9C%8F%E9%9C%BE.html",
+      "name": "冷清霏霾"
+    },
+    {
+      "url": "source/%E5%92%8C%E7%85%A6%E9%A3%8E%E4%B8%AD%EF%BC%8C%E5%B9%85%E7%BC%98%E6%9E%9D%E6%A2%A2.html",
+      "name": "和煦风中，幅缘枝梢"
+    }
+  ],
+  "resources": [],
+  "links": []
+}

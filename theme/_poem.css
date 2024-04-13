@@ -1,0 +1,11 @@
+@import 'structure.css';
+@import 'fonts.css';
+@import 'title.css';
+
+p {
+	text-indent: 0;
+}
+
+.date {
+	font-size: smaller;
+}
