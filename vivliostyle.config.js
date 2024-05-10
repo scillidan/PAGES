@@ -57,6 +57,11 @@ module.exports = {
       title: '和煦风中，幅缘枝梢',
       theme: 'theme/_poem.css',
     },
+    { 
+      path: 'source/携泳圈的枕头安全穿过湖泊.md',
+      title: '携泳圈的枕头安全穿过湖泊',
+      theme: 'theme/_poem.css',
+    },
   ],
   // output: [
     // './book.pdf',
